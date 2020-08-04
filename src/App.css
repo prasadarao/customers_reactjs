@@ -29,6 +29,7 @@ footer .container {
 
 .mainbody .container {
   display: flex;
+  min-height: 500px;
 }
 
 .left-container {
