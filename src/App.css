@@ -43,6 +43,7 @@ footer .container {
 .left-container,
 .right-container {
   padding: 10px 20px;
+  box-sizing: border-box;
 }
 
 ul {

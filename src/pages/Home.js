@@ -27,7 +27,7 @@ const Home = ({ dispatch, customers, addresses }) => {
             <div className="mainbody">
                 <div className="container">
                     <CustomersList customers = {customers.customers} setCustomerID={setCustomerID}/>
-                    {addresses.addresses.length > 0  ? <AddressList addresses = {addresses.addresses}/> : "" }
+                    {customerID > 0  ? <AddressList addresses = {addresses.addresses}/> : "" }
                 </div>
                 
             </div>
